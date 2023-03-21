@@ -23,7 +23,7 @@
   background-color: gray;
 }
 
-/*@media (max-width: 1199px) {
+@media (max-width: 1199px) {
   .container {
     width: 100%;
     padding-left: 50px;
@@ -36,9 +36,10 @@
   .main-inner {
     margin-bottom: 30px;
   }
-}*/
+}
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  /* не работает почему-то*/
   .container {
     width: 100%;
     padding-left: 20px;
